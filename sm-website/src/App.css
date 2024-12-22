@@ -1,0 +1,115 @@
+#root {
+  width: 100vw;
+  margin: 0 auto;
+  padding: 0rem;
+  text-align: center;
+  font-size: medium;
+}
+
+.logo {
+  height: 35em;
+  padding: 1.5em;
+  border-width: 5px;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+@keyframes logo-spin {
+  from {
+    translate: 50%;
+  }
+  to {
+    translate: -50%;
+  }
+}
+
+.home-about-text {
+  color: #e1f4e7;
+  padding: 5px 5px;
+}
+
+.home-about-box {
+  align-content: center !important;
+  padding: 10px;
+  max-width: 500px;
+  min-width: 400px;
+}
+
+.home-forest-box {
+  background-color: #050505;
+}
+.home-forest-pic {
+  max-width: 1800px;
+  max-height: 1000px;
+}
+
+.green-sticky-note {
+  border-width: 5px;
+  padding: 1rem 1rem;
+  border-radius: 5px;
+}
+
+.home-white-box {
+  height: 20em;
+  background-color: #e1f4e7;
+  color: #284b19;
+  padding: 5px;
+}
+.home-white-box-items {
+  color: #284b19;
+}
+.home-white-box-items:hover {
+  color: #e1f4e7 !important;
+  background-color: #284b19;
+}
+
+.projects-header {
+  font-size: 2em;
+}
+
+.navbar {
+  align-content: start !important;
+  background-color: #050505;
+  height: 70px;
+  color: #e1f4e7;
+  position-anchor: top !important;
+}
+
+.navbar-items {
+  color: #e1f4e7;
+  width: 100px;
+  height: 50px;
+  margin: 15px;
+  font-size: large;
+}
+
+.navbar-items:hover {
+  color: #284b19;
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+.about {
+  background-color: #e1f4e7;
+  color: #253120 !important;
+  text-align: left;
+  padding: 30px;
+}
+
+.about-paragraph {
+  color: #436e5a;
+}
+
+.contact {
+  background-color: #e1f4e7;
+  color: #253120;
+  padding: 15px;
+  text-align: left;
+}
+
+.contact-link-pictures {
+  width: 130px;
+  height: 130px;
+  margin: 10px;
+}
