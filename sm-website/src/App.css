@@ -6,23 +6,12 @@
   font-size: medium;
 }
 
-.logo {
-  height: 35em;
+.profile-picture {
+  height: 30em;
   padding: 1.5em;
   border-width: 5px;
   will-change: filter;
   transition: filter 300ms;
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-@keyframes logo-spin {
-  from {
-    translate: 50%;
-  }
-  to {
-    translate: -50%;
-  }
 }
 
 .home-about-text {
@@ -33,7 +22,7 @@
 .home-about-box {
   align-content: center !important;
   padding: 10px;
-  max-width: 500px;
+  max-width: 600px;
   min-width: 400px;
 }
 
@@ -41,8 +30,11 @@
   background-color: #050505;
 }
 .home-forest-pic {
-  max-width: 1800px;
-  max-height: 1000px;
+  width: 100vw;
+  height: 450px;
+  object-fit: cover;
+  object-position: 0 0;
+  color: #050505;
 }
 
 .green-sticky-note {
