@@ -17,7 +17,7 @@ function Contact() {
             <img
               className="logo-bar-items"
               href="https://github.com/SchuylerMcClean"
-              src="../githubLogo.png"
+              src="../githubLogo.svg"
               alt="Git Hub Logo"
             />
           </a>
