@@ -21,7 +21,15 @@ const NavBar = () => {
             About Me
           </NavLink>
         </div>
-
+        <div style={{ alignContent: "center" }}>
+          <NavLink
+            className="navbar-items"
+            style={{ verticalAlign: "middle" }}
+            to="/download"
+          >
+            Download
+          </NavLink>
+        </div>
         <div style={{ alignContent: "center" }}>
           <NavLink
             className="navbar-items"

@@ -1,18 +1,35 @@
 import React from "react";
-import GitHubLogo from "/GitHubLogo.png";
-import LinkedinLogo from "/LinkedinLogo.webp";
 
 function Contact() {
   return (
-    <div className="contact">
-      <h1>Contact Schuyler:</h1>
-      <div style={{ display: "flex" }}>
-        <a href="https://github.com/SchuylerMcClean">
-          <img className="contact-link-pictures" src={GitHubLogo} />
-        </a>
-        <a href="https://www.linkedin.com/in/schuylermcclean/">
-          <img className="contact-link-pictures" src={LinkedinLogo} />
-        </a>
+    <div
+      id="Contact"
+      className="snow-background"
+      style={{ backgroundAttachment: "fixed", justifyContent: "center" }}
+    >
+      <div className="background-opacity">
+        <div className="contact">
+          <h1>Contact Me!</h1>
+        </div>
+
+        <div className="logo-bar">
+          <a>
+            <img
+              className="logo-bar-items"
+              href="https://github.com/SchuylerMcClean"
+              src="../githubLogo.png"
+              alt="Git Hub Logo"
+            />
+          </a>
+          <a>
+            <img
+              className="logo-bar-items"
+              href="https://www.linkedin.com/in/schuylermcclean/"
+              src="../LinkedinLogo.webp"
+              alt="Linkedin Logo"
+            />
+          </a>
+        </div>
       </div>
     </div>
   );

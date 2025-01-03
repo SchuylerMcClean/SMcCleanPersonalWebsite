@@ -3,70 +3,51 @@
   margin: 0 auto;
   padding: 0rem;
   text-align: center;
-  font-size: medium;
+  font-size: 20px;
 }
 
 .profile-picture {
-  height: 30em;
-  padding: 1.5em;
+  height: 24em;
+  border-radius: 3px;
+  border: solid;
+  border-color: #050505;
   border-width: 5px;
-  will-change: filter;
-  transition: filter 300ms;
+  filter: drop-shadow(0 0 0.75rem black);
 }
 
 .home-about-text {
   color: #e1f4e7;
   padding: 5px 5px;
+  font-size: 24px;
 }
 
 .home-about-box {
   align-content: center !important;
-  padding: 10px;
-  max-width: 600px;
+  padding-bottom: 30px;
+  padding-right: 5px;
+  max-width: 700px;
   min-width: 400px;
-}
-
-.home-forest-box {
-  background-color: #050505;
-}
-.home-forest-pic {
-  width: 100vw;
-  height: 450px;
-  object-fit: cover;
-  object-position: 0 0;
-  color: #050505;
-}
-
-.green-sticky-note {
-  border-width: 5px;
-  padding: 1rem 1rem;
-  border-radius: 5px;
-}
-
-.home-white-box {
-  height: 20em;
-  background-color: #e1f4e7;
-  color: #284b19;
-  padding: 5px;
-}
-.home-white-box-items {
-  color: #284b19;
-}
-.home-white-box-items:hover {
-  color: #e1f4e7 !important;
-  background-color: #284b19;
-}
-
-.projects-header {
-  font-size: 2em;
+  z-index: 2;
 }
 
 .navbar {
-  align-content: start !important;
   background-color: #050505;
-  height: 70px;
+  height: 50px;
   color: #e1f4e7;
-  position-anchor: top !important;
+  position: fixed;
+  width: 100vw;
+  z-index: 10;
+  top: 0px;
+}
+.endbar {
+  background-color: #050505;
+  height: 25px;
+  color: #e1f4e7;
+  padding-left: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+  z-index: 10;
 }
 
 .navbar-items {
@@ -75,33 +56,118 @@
   height: 50px;
   margin: 15px;
   font-size: large;
+  text-decoration: inherit;
+  border-radius: 1px;
+  padding: 8px;
+  transition: all 300ms ease-in-out;
 }
 
 .navbar-items:hover {
   color: #284b19;
+  background-color: #e1f4e7;
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
 
-.about {
-  background-color: #e1f4e7;
-  color: #253120 !important;
-  text-align: left;
-  padding: 30px;
-}
-
-.about-paragraph {
-  color: #436e5a;
-}
-
 .contact {
-  background-color: #e1f4e7;
-  color: #253120;
-  padding: 15px;
-  text-align: left;
+  color: #e1f4e7;
+  align-content: center;
+  padding: 100px;
 }
 
-.contact-link-pictures {
-  width: 130px;
-  height: 130px;
-  margin: 10px;
+.contact-link-pictures:hover {
+  filter: drop-shadow(0 0 0.75rem black);
+}
+
+.home-forest-background {
+  background-image: url("forestPic.jpg");
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.transparent-box {
+  width: 100vw - 70px;
+  justify-content: center;
+  padding: 30px;
+  padding-left: 5px;
+}
+
+.background-opacity {
+  background-color: rgb(0 0 0/50%);
+  min-height: 100vh;
+}
+
+.about-mountain-background {
+  background-image: url("darkMountains.jpg");
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.about-text-box {
+  color: #e1f4e7;
+  width: 100vw - 205px;
+  padding: 60px;
+  font-size: 24px;
+}
+#About .logo-bar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100vw - 50px;
+  justify-content: center;
+}
+#About .logo-bar-items {
+  height: 100px;
+  width: 100px;
+  margin-left: 10px;
+  margin-right: 10px;
+  filter: drop-shadow(0 0 1rem grey);
+  transition: all 500ms;
+}
+#About .logo-bar-items:hover {
+  filter: drop-shadow(0 0 1rem white);
+  scale: 1.5;
+}
+
+#Contact .logo-bar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100vw - 50px;
+  justify-content: center;
+}
+#Contact .logo-bar-items {
+  height: 200px;
+  width: auto;
+  margin-left: 30px;
+  margin-right: 30px;
+  filter: drop-shadow(0 0 1rem grey);
+  transition: all 500ms;
+}
+#Contact .logo-bar-items:hover {
+  filter: drop-shadow(0 0 1rem white);
+  scale: 1.5;
+}
+
+.ocean-picture {
+  background-image: url("oceanPicture.avif");
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.link {
+  color: #e1f4e7;
+  border-radius: 1px;
+  padding: 8px;
+  transition: all 300ms ease-in-out;
+}
+.link:hover {
+  color: #000000;
+  background-color: #e1f4e7;
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+.snow-background {
+  background-image: url("snowPicture.jpg");
+  background-size: cover;
+  min-height: 100vh;
 }
