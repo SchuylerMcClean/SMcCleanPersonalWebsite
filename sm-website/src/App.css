@@ -79,7 +79,7 @@
 }
 
 .home-forest-background {
-  background-image: url("forestPic.jpg");
+  background-image: url("images/forestPic.jpg");
   background-size: cover;
   min-height: 100vh;
 }
@@ -97,7 +97,7 @@
 }
 
 .about-mountain-background {
-  background-image: url("darkMountains.jpg");
+  background-image: url("images/darkMountains.jpg");
   background-size: cover;
   min-height: 100vh;
 }
@@ -149,7 +149,7 @@
 }
 
 .ocean-picture {
-  background-image: url("oceanPicture.avif");
+  background-image: url("images/oceanPicture.avif");
   background-size: cover;
   min-height: 100vh;
 }
@@ -167,7 +167,7 @@
 }
 
 .snow-background {
-  background-image: url("snowPicture.jpg");
+  background-image: url("images/snowPicture.jpg");
   background-size: cover;
   min-height: 100vh;
 }
