@@ -13,18 +13,16 @@ function Contact() {
         </div>
 
         <div className="logo-bar">
-          <a>
+          <a href="https://github.com/SchuylerMcClean">
             <img
               className="logo-bar-items"
-              href="https://github.com/SchuylerMcClean"
               src="../githubLogo.svg"
               alt="Git Hub Logo"
             />
           </a>
-          <a>
+          <a href="https://www.linkedin.com/in/schuylermcclean/">
             <img
               className="logo-bar-items"
-              href="https://www.linkedin.com/in/schuylermcclean/"
               src="../LinkedinLogo.webp"
               alt="Linkedin Logo"
             />
